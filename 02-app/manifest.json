@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+    "name" : "Hello zombie!",
+    "version" : "0.0.0.2",
+    "description" : "Zombie likes to eat brains. Yum-yum.",
+    "icons" : {
+        "128" : "icon128.png",
+        "48" : "icon48.png",
+        "16" : "icon16.png"
+    },
+    "app" : {
+        "urls" : ["*://www.fczbkk.com/"],
+        "launch" : {
+            "web_url" : "http://www.fczbkk.com/"
+        }
+    },
+    "permissions" : [
+        "unlimitedStorage",
+        "notifications",
+        "geolocation",
+        "*://*.mydatasource.com/*/"
+    ]
+}
